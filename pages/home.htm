@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <a href="#/forecast" ng-click="city='Gdańsk'" class="btn btn-warning">Gdańsk</a>
+        <a href="#/forecast" ng-click="city='Gdynia'" class="btn btn-warning">Gdynia</a>
+        <a href="#/forecast" ng-click="city='Poznań'" class="btn btn-warning">Poznań</a>
+        <a href="#/forecast" ng-click="city='Kraków'" class="btn btn-warning">Kraków</a>
+        <a href="#/forecast" ng-click="city='Toruń'" class="btn btn-warning">Toruń</a>
+        <a href="#/forecast" ng-click="city='Sopot'" class="btn btn-warning">Sopot</a>
+    </div>
+    <div class="col-md-6 col-md-offset-3">
+        <p></p>
+    </div>
+    <div class="col-md-6 col-md-offset-3">
+        <h4>Search Forecast by City</h4>
+        <div class="form-group">
+            <input type="text" ng-model="city" class="form-control" />
+        </div>
+        <a href="#/forecast" class="btn btn-primary">Get Forecast</a>
+    </div>
+</div>
